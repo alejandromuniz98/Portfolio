@@ -1,0 +1,122 @@
+.Inicio {
+  background: linear-gradient(to top, rgba(30, 35, 38, 0.3), rgba(30, 35, 38, 1)),
+    url(../../Images/web-developer.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Inicio_banner {
+  padding: 20px;
+  background-color: #252b30;
+  text-align: center;
+  border-radius: 40px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  align-items: center;
+}
+
+.Inicio_imagen {
+  border: 10px solid #08cea9;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  border-radius: 100%;
+  background: url(../../Images/IMG_7779.jpeg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5%;
+}
+
+
+.Inicio h1 {
+  font-size: xx-large;
+  font-family:initial;
+}
+
+.Inicio h2 {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: monospace;
+}
+
+.Inicio_redes {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.Inicio_redes_icon {
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid #08cea9;
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  margin: 40px 5px;
+  font-size: 20px;
+  transition: .3s;
+  min-width: 42px;
+}
+
+#linkedin {
+  background: url(../../Images/linkedin.png);
+  background-size: cover;
+}
+
+#github {
+  background: url(../../Images/git.png);
+  background-size: cover;
+}
+
+#gmail {
+  background: url(../../Images/gmail.png);
+  background-size: cover;
+}
+
+
+
+.Inicio_botonCV {
+  background: #08cea9;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 16px 20px;
+  border-radius: 3px;
+  position: relative;
+  z-index: 1;
+  overflow: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.Inicio_botonCV:hover {
+  color: #08cea9;
+}
+
+.Inicio_botonCV::after {
+  content: "";
+  background: #252b30;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+
+.Inicio_botonCV:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(45deg) scale(1, 1);
+}

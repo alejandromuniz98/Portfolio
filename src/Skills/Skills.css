@@ -1,0 +1,168 @@
+.Skills {
+    background-color: #2f3335;
+    color: #fff;
+    padding: 30px 20px 40px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Skills_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+
+.Skills h2 {
+    font-size: 48px;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    padding: 5px;
+}
+
+.Skills_item{
+    height: 220px;
+    width: 200px;
+    position: relative;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    background: #2f3335;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+}
+
+.Skills_item:hover {
+    margin-top: -10px;
+}
+
+.Skills_item span {
+    color: #2f3335;
+}
+
+.Skills_item:hover span {
+color: white;
+}
+
+
+#NET{
+    background: url(../../Images/NET.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 100%;
+}
+
+#C{
+    background: url(../../Images/C.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 100%;
+}
+
+#REST{
+    background: url(../../Images/REST.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 100%;
+}
+
+#HTML{
+    background: url(../../Images/html.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+#CSS{
+    background: url(../../Images/css.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+#JavaScript{
+    background: url(../../Images/js.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 100%;
+    
+}
+
+#React{
+    background: url(../../Images/react.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+#Blazor{
+    background: url(../../Images/Blazor.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+#Bootstrap{
+    background: url(../../Images/bootstrap.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+#DevExpress{
+    background: url(../../Images/DevExpress.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+#Azure{
+    background: url(../../Images/azure.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+#SQL{
+    background: url(../../Images/sql.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+

@@ -1,0 +1,98 @@
+.Curriculum {
+    background-color: #1e2326;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px 40px;
+}
+
+.Curriculum h2 {
+    font-size: 48px;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    padding: 5px;
+}
+
+.Curriculum_container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+
+.Curriculum_formacion {
+    width: 49%;
+    padding-left: 3%;
+}
+
+.Curriculum_formacion h3 {
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+
+.Curriculum_formacion_element {
+    padding: 25px;
+    background-color: #2f3335;
+    position: relative;
+    border-right: 2px solid #08cea9;
+    border-left: 2px solid #08cea9;
+    margin-right: 20px;
+}
+
+.Curriculum_formacion_element h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Curriculum_element_lugar {
+    color: #08cea9;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Curriculum_element_fecha {
+    display: block;
+    color: #08cea9;
+    margin-bottom: 10px;
+}
+
+.Curriculum_element p {
+    line-height: 24px;
+}
+
+.Curriculum_experiencia {
+    width: 49%;
+    padding-right: 3%;
+}
+
+.Curriculum_experiencia h3 {
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+
+.Curriculum_experiencia_element {
+    padding: 25px;
+    background-color: #2f3335;
+    position: relative;
+    border-left: 2px solid #08cea9;
+    border-right: 2px solid #08cea9;
+    margin-left: 20px;
+}
+
+.Curriculum_experiencia_element h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.Curriculum_line{
+    border: 2px solid #08cea9;
+    display: initial;
+    margin-bottom: -1%;
+}

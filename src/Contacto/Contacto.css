@@ -1,0 +1,139 @@
+.Contacto {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, rgba(30, 35, 38, 0.3), rgba(30, 35, 38, 1)),
+    url(../../Images/web-contact.jpg);
+}
+
+.Contacto h2 {
+    font-size: 48px;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+
+.Contacto_container_row {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3%;
+    flex-direction: row;
+}
+
+.Contacto_container_column {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    flex-direction: column;
+}
+
+.Contacto_form {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.Contacto_form_responsive{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Contacto_form_form{
+width: 70%;
+}
+
+.Contacto_form_data{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+.Contacto_form_input {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #dcdcdc;
+    color: #000000;
+    font-size: 18px;
+    width: 100%;
+}
+
+.Contacto_form_textarea {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #dcdcdc;
+    color: #000000;
+    font-size: 18px;
+    width: 100%;
+}
+
+.Contacto_boton {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    margin-bottom: 10%;
+}
+
+.Contacto_boton:hover{
+    cursor: pointer;
+}
+
+.Contacto_boton span {
+    position: relative;
+    z-index: 2;
+}
+
+.Contacto_boton:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #08cea9;
+    transition: all .35s;
+}
+
+.Contacto_boton:hover:after {
+    width: 100%;
+}
+
+
+.Contacto_map{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+.Contacto_map_responsive{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-self: center;
+}
+
+iframe{
+    width: 100%;
+    min-height: 280px;
+}

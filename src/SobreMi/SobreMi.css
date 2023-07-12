@@ -1,0 +1,148 @@
+.SobreMi {
+    background-color: #1e2326;
+    color: #fff;
+    padding: 30px 20px 40px;
+}
+
+.SobreMi_intro {
+    max-width: 90%;
+    margin: auto;
+}
+
+.SobreMi h2 {
+    font-size: 48px;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    padding: 5px;
+}
+
+.SobreMi p {
+    margin-bottom: 40px;
+}
+
+.SobreMi_row_displayrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.SobreMi_row_displaycolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.SobreMi_column {
+    /* width: 50%; */
+}
+
+.SobreMi h3 {
+    font-size: 28px;
+    font-family: 'Comic Sans MS';
+    margin-bottom: 30px;
+}
+
+.SobreMi ul {
+    list-style: circle;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* padding-left: 10%; */
+}
+
+.SobreMi li {
+    margin: 12px 0;
+}
+
+.SobreMi strong {
+    color: #08cea9;
+    padding-left: 0%;
+}
+
+.SobreMi_intereses {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.SobreMi_column_intereses {
+    display: flex;
+    justify-content: center;
+}
+
+.SobreMi_intereses_item {
+    width: 100px;
+    height: 100px;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.SobreMi_intereses_item:hover {
+    background-color: #08cea9;
+}
+
+.SobreMi_intereses_item span {
+    color: black;
+}
+
+#Juegos {
+    background: url(../../Images/Juegos.png);
+    background-size: cover;
+    height: 100%;
+    width: 75%;
+    background-position: center;
+    min-width: 90%;
+}
+
+#Musica {
+    background: url(../../Images/Musica.png);
+    background-size: cover;
+    height: 100%;
+    width: 75%;
+    background-position: center;
+    min-width: 90%;
+}
+
+#Viajar {
+    background: url(../../Images/Viajar.png);
+    background-size: cover;
+    height: 100%;
+    width: 75%;
+    background-position: center;
+    min-width: 90%;
+}
+
+#Deporte {
+    background: url(../../Images/Deporte.png);
+    background-size: cover;
+    height: 100%;
+    width: 75%;
+    background-position: center;
+    min-width: 90%;
+}
+
+#Naturaleza {
+    background: url(../../Images/Naturaleza.png);
+    background-size: cover;
+    height: 100%;
+    width: 75%;
+    background-position: center;
+    min-width: 90%;
+}
+
+#Fotografia {
+    background: url(../../Images/Fotografia.png);
+    background-size: cover;
+    height: 100%;
+    width: 75%;
+    background-position: center;
+    min-width: 90%;
+}
