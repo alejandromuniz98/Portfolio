@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e673a154.css",
+    "main.js": "/static/js/main.f7f66f70.js",
+    "static/media/IMG_7779.jpeg": "/static/media/IMG_7779.4b7bb3983cd4966027f7.jpeg",
+    "static/media/CV-Alejandro.pdf": "/static/media/CV-Alejandro.8c3e64f624eb1027f012.pdf",
+    "static/media/azure.png": "/static/media/azure.5a694f18b0e4f276ce48.png",
+    "static/media/REST.png": "/static/media/REST.c5618b6df35050c50c2e.png",
+    "static/media/web-developer.jpg": "/static/media/web-developer.411106a9bbef6d8cba01.jpg",
+    "static/media/Rodicar.jpeg": "/static/media/Rodicar.d80fe147bc634556de10.jpeg",
+    "static/media/Alexa.png": "/static/media/Alexa.ac4b4f89c81de801f133.png",
+    "static/media/Pago.png": "/static/media/Pago.f1e00bd6593437745331.png",
+    "static/media/web-contact.jpg": "/static/media/web-contact.c1bd222f14c5219ffdd4.jpg",
+    "static/media/sql.png": "/static/media/sql.b3abfb546656a9eea3f6.png",
+    "static/media/gmail.png": "/static/media/gmail.f1e9bccc16471cd4a86c.png",
+    "static/media/react.png": "/static/media/react.e71f4c5b0c4306d65355.png",
+    "static/media/Blazor.png": "/static/media/Blazor.9f6c714a50187f38afc1.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.e94a80856cc0cb492938.png",
+    "static/media/css.png": "/static/media/css.9fa1c3f36eb5f2a061ba.png",
+    "index.html": "/index.html",
+    "main.e673a154.css.map": "/static/css/main.e673a154.css.map",
+    "main.f7f66f70.js.map": "/static/js/main.f7f66f70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e673a154.css",
+    "static/js/main.f7f66f70.js"
+  ]
+}
