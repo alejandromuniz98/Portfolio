@@ -21,9 +21,21 @@
   align-items: center;
 }
 
+.Inicio_banner_responsive {
+  padding: 20px;
+  background-color: #252b30;
+  text-align: center;
+  border-radius: 40px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  align-items: center;
+}
+
 .Inicio_imagen {
   border: 10px solid #08cea9;
-  width: 70%;
+  width: 60%;
   height: 100%;
   margin: auto;
   border-radius: 100%;
@@ -35,12 +47,12 @@
 
 
 .Inicio h1 {
-  font-size: xx-large;
+  font-size:25px;
   font-family:initial;
 }
 
 .Inicio h2 {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: normal;
   font-family: monospace;
 }
@@ -61,7 +73,7 @@
   width: 42px;
   height: 42px;
   line-height: 42px;
-  margin: 40px 5px;
+  margin: 20px 5px;
   font-size: 20px;
   transition: .3s;
   min-width: 42px;
@@ -88,7 +100,7 @@
   background: #08cea9;
   color: #ffffff;
   border: 2px solid #ffffff;
-  padding: 16px 20px;
+  padding: 10px 20px;
   border-radius: 3px;
   position: relative;
   z-index: 1;

@@ -1,12 +1,12 @@
 import './Inicio.css';
 import CV from '../../src/CV-Alejandro.pdf'
-
+import {isMobile} from 'react-device-detect';
 
 function Inicio() {
 
   return (
     <div className='Inicio'>
-      <div className="Inicio_banner">
+      <div className={isMobile==false?"Inicio_banner":"Inicio_banner_responsive"}>
         <div className="Inicio_imagen"/>
         <h1>ALEJANDRO MUÑIZ BERDASCO</h1>
         <h2>Ingeniero Informático</h2>

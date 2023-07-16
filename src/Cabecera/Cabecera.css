@@ -22,7 +22,7 @@
 
 .Cabecera_logo_text {
   font-family: 'Righteous';
-  font-size: 36px;
+  font-size: 30px;
   color: #08cea9;
   text-decoration: none;
 }
@@ -48,7 +48,7 @@
   padding: 3px;
   transition: .5s;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 90%;
 }
 
 .Cabecera_navbar_item:hover {
@@ -63,7 +63,7 @@
   background: url(../../Images/menu.png);
   background-size: cover;
   height: 100%;
-  width: 100%;
+  width: 90%;
   background-position: center;
 }
 

@@ -18,7 +18,7 @@
 }
 
 .Proyectos h2 {
-    font-size: 48px;
+    font-size: 40px;
     font-family: 'Comic Sans MS';
     text-align: center;
     padding: 5px;
@@ -26,8 +26,8 @@
 
 .Proyectos_card {
   background-color: transparent;
-  width: 350px;
-  height: 250px;
+  width: 320px;
+  height: 220px;
   border: 4px solid #08cea9;
   perspective: 1000px;
   margin-bottom: 5%;
@@ -60,6 +60,13 @@
   transform: rotateY(180deg);
 }
 
+.Proyectos_card_back h1{
+  font-size: 22px;
+}
+
+.Proyectos_card_back p{
+  font-size: 16px;
+}
 
 #Fluidos{
 background: url(../../Images/Rodicar.jpeg);

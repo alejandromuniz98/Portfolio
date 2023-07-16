@@ -38,8 +38,4 @@ function App() {
 }
 
 
-
-//MODIFICAR CV PDF
-//CAMBIAR PAG WEB EN SOBRE MI
-//SUBIR
 export default App;

@@ -10,7 +10,7 @@
 }
 
 .SobreMi h2 {
-    font-size: 48px;
+    font-size: 40px;
     font-family: 'Comic Sans MS';
     text-align: center;
     padding: 5px;
@@ -18,6 +18,7 @@
 
 .SobreMi p {
     margin-bottom: 40px;
+    font-size: 14px;
 }
 
 .SobreMi_row_displayrow {
@@ -37,7 +38,7 @@
 }
 
 .SobreMi h3 {
-    font-size: 28px;
+    font-size: 24px;
     font-family: 'Comic Sans MS';
     margin-bottom: 30px;
 }
@@ -52,11 +53,13 @@
 
 .SobreMi li {
     margin: 12px 0;
+    font-size: 14px;
 }
 
 .SobreMi strong {
     color: #08cea9;
     padding-left: 0%;
+    font-size: 14px;
 }
 
 .SobreMi_intereses {
@@ -73,7 +76,7 @@
 }
 
 .SobreMi_intereses_item {
-    width: 100px;
+    width: 90px;
     height: 100px;
     background-color: #e1e1e1;
     border-radius: 10px;
@@ -91,12 +94,13 @@
 
 .SobreMi_intereses_item span {
     color: black;
+    font-size: 14px;
 }
 
 #Juegos {
     background: url(../../Images/Juegos.png);
     background-size: cover;
-    height: 100%;
+    height: 90%;
     width: 75%;
     background-position: center;
     min-width: 90%;
@@ -105,7 +109,7 @@
 #Musica {
     background: url(../../Images/Musica.png);
     background-size: cover;
-    height: 100%;
+    height: 90%;
     width: 75%;
     background-position: center;
     min-width: 90%;
@@ -114,7 +118,7 @@
 #Viajar {
     background: url(../../Images/Viajar.png);
     background-size: cover;
-    height: 100%;
+    height: 90%;
     width: 75%;
     background-position: center;
     min-width: 90%;
@@ -123,7 +127,7 @@
 #Deporte {
     background: url(../../Images/Deporte.png);
     background-size: cover;
-    height: 100%;
+    height: 90%;
     width: 75%;
     background-position: center;
     min-width: 90%;
@@ -132,7 +136,7 @@
 #Naturaleza {
     background: url(../../Images/Naturaleza.png);
     background-size: cover;
-    height: 100%;
+    height: 90%;
     width: 75%;
     background-position: center;
     min-width: 90%;
@@ -141,7 +145,7 @@
 #Fotografia {
     background: url(../../Images/Fotografia.png);
     background-size: cover;
-    height: 100%;
+    height: 90%;
     width: 75%;
     background-position: center;
     min-width: 90%;

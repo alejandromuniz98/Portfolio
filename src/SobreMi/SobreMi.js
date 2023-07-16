@@ -9,9 +9,8 @@ function SobreMi() {
                 <p>Hola, soy Alejandro Muñiz.
                     Soy un ingeniero informático con experiencia en el diseño y desarrollo de software y sistemas informáticos.
                     He trabajado en proyectos que me han permitido desarrollar habilidades principalmente en .NET Framework, React y manejo de bases de datos SQL.
-                    Soy una persona proactiva y comprometida con mi trabajo, con habilidades para trabajar en equipo y capacidad
-                    para adaptarme a diferentes situaciones. Me considero una persona responsable y organizada,
-                    con capacidad para trabajar bajo presión y con orientación al logro.
+                    Soy una persona responsable, proactiva y comprometida con mi trabajo, con habilidades para trabajar en equipo y capacidad
+                    para adaptarme a diferentes situaciones.
                 </p>
                 <div className={isMobile==true?"SobreMi_row_displaycolumn":"SobreMi_row_displayrow"}>
                     <div className="SobreMi_column">
@@ -32,7 +31,7 @@ function SobreMi() {
                             </li>
                             <li>
                                 <strong>Página web </strong>
-                                www.example.com
+                                alejandromuniz98.github.io/Portfolio/
                             </li>
                             <li>
                                 <strong>Lugar de residencia </strong>

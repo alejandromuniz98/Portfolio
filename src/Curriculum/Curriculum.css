@@ -9,7 +9,7 @@
 }
 
 .Curriculum h2 {
-    font-size: 48px;
+    font-size: 40px;
     font-family: 'Comic Sans MS';
     text-align: center;
     padding: 5px;
@@ -28,7 +28,7 @@
 }
 
 .Curriculum_formacion h3 {
-    font-size: 28px;
+    font-size: 24px;
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
@@ -49,7 +49,7 @@
 
 .Curriculum_element_lugar {
     color: #08cea9;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
@@ -59,6 +59,7 @@
     display: block;
     color: #08cea9;
     margin-bottom: 10px;
+    font-size: 14px;
 }
 
 .Curriculum_element p {
@@ -71,7 +72,7 @@
 }
 
 .Curriculum_experiencia h3 {
-    font-size: 28px;
+    font-size: 24px;
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
@@ -86,7 +87,7 @@
 }
 
 .Curriculum_experiencia_element h4 {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
