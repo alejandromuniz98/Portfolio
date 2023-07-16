@@ -30,7 +30,7 @@ function SobreMi() {
                                 alejandromb98@gmail.com
                             </li>
                             <li>
-                                <strong>Página web </strong>
+                                <strong>Web </strong>
                                 alejandromuniz98.github.io/Portfolio/
                             </li>
                             <li>
