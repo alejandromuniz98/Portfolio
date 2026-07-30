@@ -1,152 +1,117 @@
-.SobreMi {
-    background-color: #1e2326;
-    color: #fff;
-    padding: 30px 20px 40px;
+.sobre-mi__intro {
+  margin: 0 0 2.5rem;
+  max-width: 42rem;
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
-.SobreMi_intro {
-    max-width: 90%;
-    margin: auto;
+.sobre-mi__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(2rem, 4vw, 3rem);
 }
 
-.SobreMi h2 {
-    font-size: 40px;
-    font-family: 'Comic Sans MS';
-    text-align: center;
-    padding: 5px;
+.sobre-mi__subtitle {
+  margin: 0 0 1.25rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-accent);
 }
 
-.SobreMi p {
-    margin-bottom: 40px;
-    font-size: 14px;
+.sobre-mi__data {
+  margin: 0;
 }
 
-.SobreMi_row_displayrow {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.sobre-mi__data-row {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: 0.5rem 1rem;
+  padding: 0.625rem 0;
+  border-bottom: 1px solid var(--color-border);
 }
 
-.SobreMi_row_displaycolumn {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.sobre-mi__data-row:last-child {
+  border-bottom: none;
 }
 
-.SobreMi_column {
-    /* width: 50%; */
+.sobre-mi__data-row dt {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
 }
 
-.SobreMi h3 {
-    font-size: 24px;
-    font-family: 'Comic Sans MS';
-    margin-bottom: 30px;
+.sobre-mi__data-row dd {
+  margin: 0;
+  font-size: 0.9375rem;
 }
 
-.SobreMi ul {
-    list-style: circle;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    /* padding-left: 10%; */
+.sobre-mi__data-row a {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-underline-offset: 2px;
 }
 
-.SobreMi li {
-    margin: 12px 0;
-    font-size: 14px;
+.sobre-mi__data-row a:hover {
+  color: var(--color-accent);
 }
 
-.SobreMi strong {
-    color: #08cea9;
-    padding-left: 0%;
-    font-size: 14px;
+.sobre-mi__interests {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));
+  gap: 0.75rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.SobreMi_intereses {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    width: 60%;
+.sobre-mi__interest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.875rem 0.5rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 0.375rem;
+  font-size: 0.8125rem;
+  text-align: center;
 }
 
-.SobreMi_column_intereses {
-    display: flex;
-    justify-content: center;
+.sobre-mi__interest-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem;
+  background-color: #e8eaed;
+  border-radius: 0.5rem;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.SobreMi_intereses_item {
-    width: 90px;
-    height: 100px;
-    background-color: #e1e1e1;
-    border-radius: 10px;
-    margin: 0 15px 15px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: .3s;
+.sobre-mi__interest-icon--juegos { background-image: url(../../Images/Juegos.png); }
+.sobre-mi__interest-icon--musica { background-image: url(../../Images/Musica.png); }
+.sobre-mi__interest-icon--viajar { background-image: url(../../Images/Viajar.png); }
+.sobre-mi__interest-icon--deporte { background-image: url(../../Images/Deporte.png); }
+.sobre-mi__interest-icon--naturaleza { background-image: url(../../Images/Naturaleza.png); }
+.sobre-mi__interest-icon--fotografia { background-image: url(../../Images/Fotografia.png); }
+
+@media (max-width: 768px) {
+  .sobre-mi__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sobre-mi__data-row {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
 }
 
-.SobreMi_intereses_item:hover {
-    background-color: #08cea9;
-}
-
-.SobreMi_intereses_item span {
-    color: black;
-    font-size: 14px;
-}
-
-#Juegos {
-    background: url(../../Images/Juegos.png);
-    background-size: cover;
-    height: 90%;
-    width: 75%;
-    background-position: center;
-    min-width: 90%;
-}
-
-#Musica {
-    background: url(../../Images/Musica.png);
-    background-size: cover;
-    height: 90%;
-    width: 75%;
-    background-position: center;
-    min-width: 90%;
-}
-
-#Viajar {
-    background: url(../../Images/Viajar.png);
-    background-size: cover;
-    height: 90%;
-    width: 75%;
-    background-position: center;
-    min-width: 90%;
-}
-
-#Deporte {
-    background: url(../../Images/Deporte.png);
-    background-size: cover;
-    height: 90%;
-    width: 75%;
-    background-position: center;
-    min-width: 90%;
-}
-
-#Naturaleza {
-    background: url(../../Images/Naturaleza.png);
-    background-size: cover;
-    height: 90%;
-    width: 75%;
-    background-position: center;
-    min-width: 90%;
-}
-
-#Fotografia {
-    background: url(../../Images/Fotografia.png);
-    background-size: cover;
-    height: 90%;
-    width: 75%;
-    background-position: center;
-    min-width: 90%;
+@media (max-width: 480px) {
+  .sobre-mi__interests {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

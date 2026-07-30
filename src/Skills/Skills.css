@@ -1,169 +1,76 @@
-.Skills {
-    background-color: #2f3335;
-    color: #fff;
-    padding: 30px 20px 40px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.skills__groups {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1.5rem, 3vw, 2.5rem);
 }
 
-.Skills_container{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    width: 80%;
+.skills__group-title {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-accent);
 }
 
-
-.Skills h2 {
-    font-size: 40px;
-    font-family: 'Comic Sans MS';
-    text-align: center;
-    padding: 5px;
+.skills__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
 }
 
-.Skills_item{
-    height: 200px;
-    width: 170px;
-    position: relative;
-    margin: 30px 10px;
-    padding: 20px 15px;
-    background: #2f3335;
-    display: flex;
-    flex-direction: column;
-    transition: 0.3s ease-in-out;
-    font-size: 14px;
+.skills__item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.625rem 0.875rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 0.25rem;
+  font-size: 0.9375rem;
 }
 
-.Skills_item:hover {
-    margin-top: -10px;
+.skills__icon {
+  flex-shrink: 0;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
 }
 
-.Skills_item span {
-    color: #2f3335;
+.skills__icon--net { background-image: url(../../Images/NET.png); }
+.skills__icon--c { background-image: url(../../Images/C.png); }
+.skills__icon--rest { background-image: url(../../Images/REST.png); }
+.skills__icon--blazor { background-image: url(../../Images/Blazor.png); }
+.skills__icon--html { background-image: url(../../Images/html.png); }
+.skills__icon--css { background-image: url(../../Images/css.png); }
+.skills__icon--javascript { background-image: url(../../Images/js.png); }
+.skills__icon--react { background-image: url(../../Images/react.png); }
+.skills__icon--bootstrap { background-image: url(../../Images/bootstrap.png); }
+.skills__icon--devexpress { background-image: url(../../Images/DevExpress.png); }
+.skills__icon--azure { background-image: url(../../Images/azure.png); }
+.skills__icon--sql { background-image: url(../../Images/sql.png); }
+
+@media (max-width: 900px) {
+  .skills__groups {
+    grid-template-columns: 1fr;
+  }
 }
 
-.Skills_item:hover span {
-color: white;
+@media (min-width: 901px) and (max-width: 1100px) {
+  .skills__groups {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skills__group:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .skills__group:last-child .skills__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
-
-
-#NET{
-    background: url(../../Images/NET.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    border-radius: 100%;
-}
-
-#C{
-    background: url(../../Images/C.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    border-radius: 100%;
-}
-
-#REST{
-    background: url(../../Images/REST.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    border-radius: 100%;
-}
-
-#HTML{
-    background: url(../../Images/html.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    border-radius: 100%;
-    background-color: #ffffff;
-}
-
-#CSS{
-    background: url(../../Images/css.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    border-radius: 100%;
-    background-color: #ffffff;
-}
-
-#JavaScript{
-    background: url(../../Images/js.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    border-radius: 100%;
-    
-}
-
-#React{
-    background: url(../../Images/react.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    border-radius: 100%;
-    background-color: #ffffff;
-}
-
-#Blazor{
-    background: url(../../Images/Blazor.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    border-radius: 100%;
-    background-color: #ffffff;
-}
-
-#Bootstrap{
-    background: url(../../Images/bootstrap.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    border-radius: 100%;
-    background-color: #ffffff;
-}
-
-#DevExpress{
-    background: url(../../Images/DevExpress.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    border-radius: 100%;
-    background-color: #ffffff;
-}
-
-#Azure{
-    background: url(../../Images/azure.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    border-radius: 100%;
-    background-color: #ffffff;
-}
-
-#SQL{
-    background: url(../../Images/sql.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    border-radius: 100%;
-    background-color: #ffffff;
-}
-

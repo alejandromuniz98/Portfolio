@@ -1,93 +1,52 @@
-.Proyectos {
-    background-color: #2f3335;
-    color: #fff;
-    padding: 30px 20px 40px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.proyectos__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
-.Proyectos_container{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    width: 80%;
-    margin-top: 4%;
+.proyectos__item {
+  display: grid;
+  grid-template-columns: minmax(8rem, 12rem) 1fr;
+  gap: 1.5rem;
+  padding: 1.25rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0.25rem;
 }
 
-.Proyectos h2 {
-    font-size: 40px;
-    font-family: 'Comic Sans MS';
-    text-align: center;
-    padding: 5px;
-}
-
-.Proyectos_card {
-  background-color: transparent;
-  width: 320px;
-  height: 220px;
-  border: 4px solid #08cea9;
-  perspective: 1000px;
-  margin-bottom: 5%;
-}
-
-.Proyectos_card_sizes {
-  position: relative;
+.proyectos__image {
   width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+  aspect-ratio: 4 / 3;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.25rem;
+  border: 1px solid var(--color-border);
 }
 
-.Proyectos_card:hover .Proyectos_card_sizes {
-  transform: rotateY(180deg);
+.proyectos__image--fluidos { background-image: url(../../Images/Rodicar.jpeg); }
+.proyectos__image--pago { background-image: url(../../Images/Pago.png); }
+.proyectos__image--alexa { background-image: url(../../Images/Alexa.png); }
+
+.proyectos__title {
+  margin: 0 0 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
 }
 
-.Proyectos_card_front, .Proyectos_card_back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+.proyectos__description {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
 }
 
-.Proyectos_card_back {
-  background-color: #08cea9;
-  color: white;
-  transform: rotateY(180deg);
-}
+@media (max-width: 600px) {
+  .proyectos__item {
+    grid-template-columns: 1fr;
+  }
 
-.Proyectos_card_back h1{
-  font-size: 22px;
-}
-
-.Proyectos_card_back p{
-  font-size: 16px;
-}
-
-#Fluidos{
-background: url(../../Images/Rodicar.jpeg);
-background-size: cover;
-height: 100%;
-width: 100%;
-background-position: center;
-}
-
-#Pago{
-    background: url(../../Images/Pago.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-}
-
-#Alexa{
-    background: url(../../Images/Alexa.png);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    background-position: center;
+  .proyectos__image {
+    max-height: 10rem;
+  }
 }

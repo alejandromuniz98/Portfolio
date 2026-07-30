@@ -1,36 +1,19 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+main {
+  padding-top: var(--header-height);
 }
 
 section {
-  padding-top: 3rem;
+  padding-block: var(--section-padding);
 }
 
-#sobremi, #curriculum, #contacto {
- background-color: #1e2326;
+section:nth-of-type(even) {
+  background-color: var(--color-bg-alt);
 }
 
-#skills,#proyectos{
-  background-color:#2f3335
+#inicio {
+  padding-block: clamp(1.5rem, 3vw, 2.5rem);
 }
-
-#footer{
-  padding-top: 0;
-}
-

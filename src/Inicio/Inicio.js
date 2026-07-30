@@ -1,21 +1,38 @@
 import './Inicio.css';
-import CV from '../../src/CV-Alejandro.pdf'
-import {isMobile} from 'react-device-detect';
+import CV from '../CV-Alejandro.pdf';
+import SocialLinks from '../components/SocialLinks';
 
 function Inicio() {
-
   return (
-    <div className='Inicio'>
-      <div className={isMobile==false?"Inicio_banner":"Inicio_banner_responsive"}>
-        <div className="Inicio_imagen"/>
-        <h1>ALEJANDRO MUÑIZ BERDASCO</h1>
-        <h2>Ingeniero Informático</h2>
-        <div className="Inicio_redes">
-          <a className="Inicio_redes_icon" id='linkedin' href="//www.linkedin.com/in/alejandro-muniz-ber"/>
-          <a className="Inicio_redes_icon" id='github' href="//www.github.com/alejandromuniz98"/>
-          <a className="Inicio_redes_icon" id='gmail' href = "mailto: alejandromb98@gmail.com"/>
+    <div className="inicio container">
+      <div className="inicio__layout">
+        <div className="inicio__photo-wrap">
+          <div
+            className="inicio__photo"
+            role="img"
+            aria-label="Alejandro Muñiz Berdasco"
+          />
         </div>
-        <a href={CV} className="Inicio_botonCV" download="CV-Alejandro.pdf">Descargar CV</a>
+
+        <div className="inicio__content">
+          <p className="inicio__greeting">Hola, soy</p>
+          <h1 className="inicio__name">Alejandro Muñiz Berdasco</h1>
+          <p className="inicio__role">Ingeniero Informático · Desarrollador de software</p>
+          <p className="inicio__summary">
+            Desarrollo aplicaciones con .NET y React. Actualmente en Esnova Software, Gijón.
+          </p>
+
+          <div className="inicio__actions">
+            <a href={CV} className="btn btn--filled" download="CV-Alejandro.pdf">
+              Descargar CV
+            </a>
+            <a href="#contacto" className="btn">
+              Contactar
+            </a>
+          </div>
+
+          <SocialLinks className="inicio__social" />
+        </div>
       </div>
     </div>
   );

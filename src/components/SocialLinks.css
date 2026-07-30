@@ -1,0 +1,35 @@
+.social-links {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.social-links__item {
+  display: block;
+  position: relative;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 1px solid var(--color-accent);
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  transition: border-color 0.2s ease;
+}
+
+.social-links__item:hover,
+.social-links__item:focus-visible {
+  border-color: var(--color-text);
+  outline: none;
+}
+
+.social-links__item--linkedin {
+  background-image: url(../../Images/linkedin.png);
+}
+
+.social-links__item--github {
+  background-image: url(../../Images/git.png);
+}
+
+.social-links__item--email {
+  background-image: url(../../Images/gmail.png);
+}
