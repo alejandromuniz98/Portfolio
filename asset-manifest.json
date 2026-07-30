@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c78ae3e4.css",
-    "main.js": "/Portfolio/static/js/main.5aec69a3.js",
-    "static/media/CV-Alejandro.pdf": "/Portfolio/static/media/CV-Alejandro.4f6ce3ca42023fccb4ec.pdf",
+    "main.css": "/Portfolio/static/css/main.3e9130c2.css",
+    "main.js": "/Portfolio/static/js/main.0c6ff9d4.js",
+    "static/media/CV-Alejandro.pdf": "/Portfolio/static/media/CV-Alejandro.136777d61d97073e9d41.pdf",
     "static/media/IMG_7779.jpeg": "/Portfolio/static/media/IMG_7779.4b7bb3983cd4966027f7.jpeg",
     "static/media/azure.png": "/Portfolio/static/media/azure.5a694f18b0e4f276ce48.png",
     "static/media/REST.png": "/Portfolio/static/media/REST.c5618b6df35050c50c2e.png",
-    "static/media/web-developer.jpg": "/Portfolio/static/media/web-developer.411106a9bbef6d8cba01.jpg",
     "static/media/Rodicar.jpeg": "/Portfolio/static/media/Rodicar.d80fe147bc634556de10.jpeg",
     "static/media/Alexa.png": "/Portfolio/static/media/Alexa.ac4b4f89c81de801f133.png",
     "static/media/Pago.png": "/Portfolio/static/media/Pago.f1e00bd6593437745331.png",
-    "static/media/web-contact.jpg": "/Portfolio/static/media/web-contact.c1bd222f14c5219ffdd4.jpg",
     "static/media/sql.png": "/Portfolio/static/media/sql.b3abfb546656a9eea3f6.png",
     "static/media/gmail.png": "/Portfolio/static/media/gmail.f1e9bccc16471cd4a86c.png",
     "static/media/react.png": "/Portfolio/static/media/react.e71f4c5b0c4306d65355.png",
@@ -18,11 +16,11 @@
     "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.e94a80856cc0cb492938.png",
     "static/media/css.png": "/Portfolio/static/media/css.9fa1c3f36eb5f2a061ba.png",
     "index.html": "/Portfolio/index.html",
-    "main.c78ae3e4.css.map": "/Portfolio/static/css/main.c78ae3e4.css.map",
-    "main.5aec69a3.js.map": "/Portfolio/static/js/main.5aec69a3.js.map"
+    "main.3e9130c2.css.map": "/Portfolio/static/css/main.3e9130c2.css.map",
+    "main.0c6ff9d4.js.map": "/Portfolio/static/js/main.0c6ff9d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c78ae3e4.css",
-    "static/js/main.5aec69a3.js"
+    "static/css/main.3e9130c2.css",
+    "static/js/main.0c6ff9d4.js"
   ]
 }
